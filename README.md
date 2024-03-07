@@ -10,3 +10,19 @@ Las funcionalidades de estos servicios van dedicados a manejo de acciones CRUD s
 Crear una falta de asistencia del usuario.
 Servicio: [add-faltas.php](https://github.com/santiagoieshna/ProfAsist-Servicios-PHP/blob/main/add-faltas.php)
 
+## Obtener faltas del dia actual
+```
+Devuelve en formato JSON:
+[
+    {
+        "nombre":"Nieves",
+        "apellido":"Tejeda",
+        "hora":"1",
+        "dia":"Monday",
+        "Grupo":"2DAM"    
+    }
+]
+```
+
+Servicio: [get-faltas-today.php](https://github.com/santiagoieshna/ProfAsist-Servicios-PHP/blob/main/get-faltas-today.php)
+
