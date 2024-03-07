@@ -68,6 +68,7 @@ INSERT into Horario_profesor(profesor,hora_numero, dia_semana, grupo)
               (2, '3', 'Thursday', '2DAM'),
               (2, '3', 'Thursday', '2DAM'),
               (2, '4', 'Thursday', '2DAM');
+              
 INSERT into Horario_profesor(profesor,hora_numero, dia_semana, grupo) 
         values(1, '1', 'Friday', '1DAM'),
               (3, '1', 'Friday', '2DAM'),
